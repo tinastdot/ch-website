@@ -1,0 +1,123 @@
+/* Reset CSS */
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Base */
+body {
+    background-color: #f6eee9;
+    color: rgba(34, 34, 34, 0.561);
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    max-width: max-content;
+    margin: auto;
+}
+
+/* Elementos Semânticos */
+header {
+    display: flex;
+    padding: 30px;
+}
+
+Nav li {
+    display: inline;
+    list-style: none;
+}
+
+main {
+    width: 800;
+}
+
+footer {
+    display: flex;
+    padding: 50px;   
+}
+
+/* Links */
+a:link,
+a:visited,
+a:focus
+a:active {
+  color: #C77F5D;
+}
+
+a:hover {
+    background: #F1D8CC;
+    
+}
+ 
+/* Títulos e Subtítulos */
+h1 {
+    color: #C77F5D;
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #3B3430;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #c77e5dc0;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+h4 {
+    color: rgba(34, 34, 34, 0.561);
+    font-weight: 200;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+/* Seções */
+.section-a, .section-c, .section-d, .section-e {
+    background-color: #f6eee9;
+    display: flex;
+    padding: 50px;
+}
+
+.section-b, .section-d {
+    background-color: #f1d8cc70;
+    display: flex;
+    padding: 50px;
+}
+
+.section-a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300px;
+    font-size: 40px;
+    height: 400px;
+    text-align: center;
+}
+
+.section-left {
+    width: 30%;
+}
+
+.section-right {
+    width: 70%;
+}
+
+/* Textos */
+mark {
+   color: #C77F5D;
+   background-color: rgba(241, 216, 204, 0.561);
+   font-weight: 600;
+}
