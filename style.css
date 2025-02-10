@@ -95,7 +95,6 @@ nav {
 .perfil-img {
     max-width: 100%;
     height: auto;
-    border-radius: 10px;
 }
 
 /* Grid de projetos */
@@ -156,13 +155,6 @@ a:visited,
 a:focus,
 a:active {
     color: #C77F5D;
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 8px;
-    border-radius: 10px;
-    transition: background 0.3s ease, color 0.3s ease;
 }
 
 a:hover {
@@ -200,7 +192,6 @@ h4 {
     font-size: 16px;
     text-transform: capitalize;
     padding-bottom: 10px;
-    padding-left: 8px;
 }
 
 /* Marcação de texto */
@@ -208,11 +199,6 @@ mark {
    color: #C77F5D;
    background-color: rgba(241, 216, 204, 0.561);
    font-weight: 600;
-   display: inline-flex;
-   align-items: center;
-   justify-content: center;
-   padding: 8px;
-   border-radius: 10px;
 }
 
 /* Responsividade */
@@ -246,45 +232,4 @@ mark {
     footer {
         flex-direction: column;
     }
-}
-
-/* Animações */
-@keyframes fade-in-fwd {
-    0% {
-        transform: translateZ(-80px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateZ(0);
-        opacity: 1;
-    }
-}
-
-.fade-in-fwd {
-    animation: fade-in-fwd 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-}
-
-.social-icons {
-    display: flex;
-    gap: 15px;
-}
-
-.social-icons a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    background-color: #C77F5D;
-    color: #f6eee9;
-    font-size: 18px;
-    text-decoration: none;
-    transition: transform 0.3s ease, background-color 0.3s ease;
-}
-
-.social-icons a:hover {
-    transform: scale(1.2);
-    background-color: #F1D8CC;
-    color: #C77F5D;
 }
