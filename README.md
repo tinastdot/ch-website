@@ -33,7 +33,7 @@ O projeto é uma página web "one page" responsiva que apresenta:
 ## Contato
 🔗 [LinkedIn](https://www.linkedin.com/in/tina-s-santos)
 
-📧 [E-mail](mailto:tinast.wrk@gmail.com)
+📧 [E-mail](mailto:tinastwrk@gmail.com)
 
 ---
 🐼 **Desenvolvido por Tina Santos**
